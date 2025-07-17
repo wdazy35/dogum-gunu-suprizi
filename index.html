@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İyi ki Doğdun!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bg-music" src="assets/music.mp3" autoplay loop></audio>
+
+  <div class="envelope" onclick="openEnvelope()">
+    <div class="flap"></div>
+
+    <img src="assets/heart.png" alt="Kalp" class="heart top-heart" />
+    
+    <div class="letter">
+      <p>İyi ki doğdun <span id="name">Duru</span>! 🎉</p>
+    </div>
+    
+    <img src="assets/heart.png" alt="Kalp" class="heart bottom-heart" />
+  </div>
+
+  <div id="confetti-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
